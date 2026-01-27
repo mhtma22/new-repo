@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShopWeb</title>
-    <link rel="stylesheet" href="styles.css">  
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 <body>
     <header>
-        <h1>ShopWeb</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Carrito</a></li>
-                <li><a href="#">Iniciar sesión</a></li>
-                <li><a href="#">Registrarse</a></li>
-                <li><a href="#">Cerrar sesión</a></li>
-            </ul>
-        </nav>
+        <div class="flex flex-row bg-orange-200">
+            <div class="basis-1/3 bg-red-200">
+                <h1 class="text-center">ShopWeb</h1>
+            </div>
+            <div class="basis-2/3">
+                <a href="#" class="mr-4">Inicio</a>
+                <a href="#" class="mr-4">Productos</a>
+                <a href="#" class="mr-4">Contacto</a>
+                <a href="#" class="mr-4">Carrito</a>
+                <a href="#" class="mr-4">Iniciar sesión</a>
+            </div>
+        </div>
     </header>
 </body>
 </html>
